@@ -9,4 +9,5 @@ RUN apk add \
         avr-libc \
         binutils-avr \
         make \
+        cmake \
         cppcheck
