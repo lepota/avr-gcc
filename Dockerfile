@@ -11,3 +11,6 @@ RUN apk add \
         make \
         cmake \
         cppcheck
+
+ENV CC avr-gcc
+ENV CXX avr-g++
