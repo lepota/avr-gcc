@@ -1,6 +1,6 @@
 FROM alpine:latest
 
-MAINTAINER lepota <timelexa@gmail.com>
+LABEL maintainer="lepota <timelexa@gmail.com>"
 
 RUN apk update && apk upgrade
 
